@@ -1,0 +1,5 @@
+-r requirements.txt
+# Additional dependencies needed by the original Google Colab notebooks
+matplotlib>=3.7,<4
+imutils>=0.5.4
+# google.colab is available inside Colab; not installable for a normal local workflow.

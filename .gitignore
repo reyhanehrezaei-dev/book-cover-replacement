@@ -1,0 +1,32 @@
+# Python, notebooks, and macOS
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+__MACOSX/
+
+# Secrets and local runtime
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Source datasets, copyrighted assets, large generated videos
+cover_db/
+data/
+assets/private/
+results/raw/
+outputs/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+
+# Curated synthetic clips are intentionally small and reproducible
+!examples/synthetic/*.mp4

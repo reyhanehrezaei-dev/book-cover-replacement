@@ -1,0 +1,4 @@
+# Core CLI and synthetic demo; tested with OpenCV 4.13.0.92 and NumPy 2.3.5
+# Python 3.10+ is recommended. No GPU or pretrained model is needed.
+opencv-python-headless>=4.10,<5
+numpy>=2.0,<3
