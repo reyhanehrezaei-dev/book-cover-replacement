@@ -16,7 +16,7 @@ __MACOSX/
 *.pem
 credentials.json
 
-# Source datasets, copyrighted assets, large generated videos
+# Local datasets, unreviewed third-party source media and generated videos
 cover_db/
 data/
 assets/private/
@@ -30,3 +30,6 @@ outputs/
 
 # Curated synthetic clips are intentionally small and reproducible
 !examples/synthetic/*.mp4
+
+# Curated, compressed video results from the author's original experiments
+!examples/original/videos/*.mp4
